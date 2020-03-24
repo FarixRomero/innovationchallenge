@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.parte1_fondo {
+  background: url(https://s3.amazonaws.com/www.2flock.com/dinamic/img/innovationchallenge/parte1_0Recurso+9%402x.png);
+  /* top: 850px; */
+  /* top: -350px; */
+  /* padding-top: -800px; */
+  margin-top: -400px;
+  /* position: relative; */
+  z-index: -1;
+  width: 100%;
+  height: 1200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parte1_conteiner {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  /* padding-right: 15%;
+    padding-left:15% ; */
+  /* padding: center center; */
+  /* padding-left:350px ; */
+}
+.parte1_imagen {
+  width: 750px;
+}
+.parte1_imagen2 {
+  width: 500px;
+  /* padding-left:150px ; */
+}
+
+.parte1_imguniv {
+  width: 110px;
+  margin: 15px;
+  /* align-self: center;
+    justify-self: center; */
+  /* margin: auto; */
+}
+.fondo2 {
+  background: url(https://s3.amazonaws.com/www.2flock.com/dinamic/img/innovationchallenge/parte2_fondo.png);
+  margin-left: 0;
+  padding: 0;
+  margin-top: -10px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+  /* gap: 30px; */
+}
+.part1_univ {
+  /* display: flex; */
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-right: 5%;
+  padding-left: 5%;
+  /* gap: 70px; */
+}
+.fondo3 {
+  background: url(https://s3.amazonaws.com/www.2flock.com/dinamic/img/innovationchallenge/parte3_fondo.png);
+  margin-left: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 50px; */
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  top: 10px;
+  /* gap: 30px; */
+}
+.parte3_conteiner {
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.conteiner3 {
+  text-align: justify;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.parte3_imagen {
+  height: 600px;
+}
+.justify {
+  text-align: justify;
+  align-self: center;
+  justify-self: center;
+}
+.h3 {
+  font-size: 45px;
+}
+.grid-2_parte3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  /* gap: 100px; */
+}
+.fondo4 {
+  background: url(https://s3.amazonaws.com/www.2flock.com/dinamic/img/innovationchallenge/parte4_fondo.png);
+  margin-left: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 50px; */
+  width: 100%;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  top: 10px;
+}
+.parte4_imagen {
+  height: 500px;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+.fases {
+  font-size: 50px;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+.grid-2_parte4 {
+  /* margin-top: 150px; */
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  /* justify-items: center; */
+  /* gap: 100px; */
+}
+.parte4_boton {
+  height: 80px;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.parte5_imagen {
+  height: 500px;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+.centrado_espaciado {
+  padding-left: 30%;
+  padding-right: 30%;
+  font-size: 18px;
+}
+.red {
+  color: red;
+}
+.fondo5{
+  background: url(https://s3.amazonaws.com/www.2flock.com/dinamic/img/innovationchallenge/parte3_fondo.png);
+  margin-left: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 50px; */
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  top: 10px;
+  /* gap: 30px; */
+}
+.fondo6 {
+  background: url(https://s3.amazonaws.com/www.2flock.com/dinamic/img/innovationchallenge/parte6_fondo.png);
+  margin-left: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 70px;
+  width: 100%;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  /* top: 10px; */
+}
+.fondo7 {
+  /* background: url(https://s3.amazonaws.com/www.2flock.com/dinamic/img/innovationchallenge/parte6_fondo.png); */
+  margin-left: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 70px; */
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  /* top: 10px; */
+}
+.parte7_imagen {
+  width: 100%;
+}
+.parte8_imagen {
+  position: absolute;
+  padding-left: 0px;
+  bottom: 0px;
+  height: 800px;
+  /* top: 2000px; */
+}
+.grid-2_parte8 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* display: flex;
+    justify-content: space-between; */
+}
+.fondo6v2 {
+  background: url(https://s3.amazonaws.com/www.2flock.com/dinamic/img/innovationchallenge/fondo6v2.png);
+  margin-left: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 70px;
+  width: 100%;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  /* top: 10px; */
+}
+.parte6_conteiner {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  align-self: center;
+}
+.grid-2_parte6 {
+  /* margin-top: 150px; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+.parte6_imagen {
+  height: 900px;
+  width: 100%;
+  padding-left: auto;
+  align-self: center;
+  justify-self: center;
+}
+.inscripciones {
+  font-size: 50px;
+}
+.inscripciones2 {
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.formulario {
+  position: absolute;
+  right: 150px;
+  bottom: 0px;
+  height: 800px;
+  /* top: 2000px; */
+}
+@media only screen and (max-width: 1200px) {
+  .parte1_fondo{
+    height: 100%;
+  }
+  .grid-2_parte6{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+  .fondo6v2{
+    
+    height: 1200px;
+
+  }
+  .parte1_fondo {
+    height: 1400px;
+  }
+  .grid-2_parte3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .parte6_imagen{
+      margin-top: 20px;
+  }
+  .parte1_fondo {
+    height: 1400px;
+    width: 100%;
+  }
+  .fondo2{
+      height: 100%;
+  }
+
+  .parte1_conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .grid-2_parte3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .grid-2_parte4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .fondo6v2{
+
+    height: 1200px;
+
+  }
+
+  .parte8_imagen {
+    display: none;
+  }
+  /* .parte4_imagen {
+    display: none;
+  } */
+  .parte3_imagen {
+    display: none;
+  }
+  .parte5_imagen {
+    display: none;
+  }
+  .parte4_imagen{
+    width: 100%;
+    height: auto;
+  }
+
+  .fases{
+    /* display: none; */
+    font-size: 35px;
+  }
+
+
+  .centrado_espaciado{
+
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .fondo4{
+      height: 900px;
+  }
+  .fondo3{
+    height: 700px;
+
+  }
+  .fondo5{
+    height: 400px;
+
+  }
+  .fondo7{
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .parte1_fondo {
+    height: 1400px;
+    width: 100%;
+  }
+  .fondo2{
+      height: 100%;
+  }
+  .parte3_conteiner{
+    margin-top: 0px;
+  }
+
+  .parte1_conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .parte1_imagen {
+    width: 100%;
+  }
+  .parte1_imagen2 {
+    width: 100%;
+  }
+  .fondo3{
+    height: 750px;
+  }
+  .fondo5{
+    height: 400px;
+  }
+
+}
+
+@media only screen and (max-width: 450px) {
+  .parte1_fondo {
+    height: 1000px;
+    width: 100%;
+  }
+  .fondo2{
+      height: 100%;
+  }
+
+  .parte1_conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .parte1_imagen {
+    width: 100%;
+  }
+  .parte1_imagen2 {
+    width: 100%;
+  }
+  .fondo3{
+    height: 1200px;
+  }
+  .fondo5{
+    height: 500px;
+  }
+
+  .fondo4 {
+    margin-top: 0px;
+}
+.parte4_boton{
+  width: 100%;
+}
+}
