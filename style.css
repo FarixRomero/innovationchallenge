@@ -3,6 +3,16 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+.fasescolor{
+  color:#F27302;
+
+}
+.retoscolor{
+  color: #DFA831;
+}
+.preguntascolor{
+  color: #BE5D3D;
+}
 .parte1_fondo {
   background: url(https://s3.amazonaws.com/www.2flock.com/dinamic/img/innovationchallenge/parte1_0Recurso+9%402x.png);
   /* top: 850px; */
